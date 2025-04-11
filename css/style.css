@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.corpo {
+  padding: 20px;
+}
+
+section {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.button,
+.button2,
+.buttonSearch {
+  background-color: #d30000;
+  color: white;
+  padding: 10px 16px;
+  margin: 4px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.button a,
+.button2 a,
+.dropbtn a,
+.dropbtn2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px 0;
+  gap: 5px;
+  background-color: #e0e0e0;
+}
+
+.dropdown,
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn,
+.dropbtn2 {
+  background-color: #d30000;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.dropdown-content,
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a,
+.dropdown-content2 a {
+  color: black;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+input#search {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.title1,
+.title2,
+.title3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.subtitle1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.corpo1,
+.corpo2,
+.corpo3,
+.corpo4 {
+  padding: 10px 20px;
+  text-align: justify;
+}
+
+.box1,
+.box2 {
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px;
+  border-left: 5px solid #d30000;
+}
+
+img {
+  max-width: 100%;
+}
+
+.display1 img {
+  width: 10%;
+  cursor: zoom-in;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 2px solid #d30000;
+}
+
+.site-footer strong {
+  color: #d30000;
+  font-weight: bold;
+}
+
+.footer-content {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.footer-content p {
+  margin: 6px 0;
+}
+
+.site-footer {
+  width: 100vw;
+  margin: 0;
+  padding: 25px 15px;
+  background-color: #000;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+  box-shadow: 0 -2px 8px rgba(255, 221, 0, 0.2);
+  box-sizing: border-box;
+}
